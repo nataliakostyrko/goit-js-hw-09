@@ -10,20 +10,19 @@
 
 <body>
   <p><a class="link" href="./index.html">Go back</a></p>
+<form class="feedback-form" autocomplete="off">
+  <label>
+    Email
+    <input class="input" type="email" name="email" autofocus />
+  </label>
+  <label>
+    Message
+    <textarea class="message" name="message" rows="8"></textarea>
+  </label>
+  <button type="submit">Submit</button>
+</form>
 
-  <form class="feedback-form" autocomplete="off">
-    <label>
-      Email
-      <input class="input" type="email" name="email" autofocus />
-    </label>
-    <label>
-      Message
-      <textarea class="message" name="message" rows="8"></textarea>
-    </label>
-    <button type="submit">Submit</button>
-  </form>
-
-  <script type="module" src="./js/2-form.js"></script>
+<script type="module" src="./js/2-form.js"></script>
 </body>
 
 </html>
